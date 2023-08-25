@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Porfolio</title>
+    <link rel="shortcut icon" href="SAVE_20230405_083724.jpg" type="image/x-icon">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(10, 1, 40);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 3, 101);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(78, 78, 221);
+        font-size: 1.4rem;
+        box-shadow: 2px 2px 11px rgb(109, 40, 165);
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px 0;
+      }
+      .firstsection > div {
+        width: 40%;
+      }
+      .leftsection {
+        margin: 30px 0;
+        font-size: 3rem;
+      }
+
+      .leftsection .btn {
+        padding: 9px;
+        background-color: rgb(15, 24, 103);
+        color: rgb(254, 254, 254);
+        border: 3px solid rgb(251, 251, 251);
+        border-radius: 25px;
+        font-size: 20px;
+        cursor: pointer;
+        text-decoration: none;
+      
+      }
+      .leftsection .btn:hover {
+        color: rgb(122, 20, 239);
+        font-size: 1.5rem;
+        box-shadow: 5px 5px 14px rgb(120, 29, 190);
+
+      }
+      .leftsection .button {
+        padding:70px 0;
+        padding: 70px 0;
+      }
+      .rightsection {
+        width: 60%;
+      }
+      #image{
+        border-radius: 200x;
+      }
+      .purple {
+        color: rgb(35, 223, 6);
+      }
+      #element {
+        color: rgb(155, 62, 179);
+      }
+      .SecondSection {
+        max-width: 80vw;
+        margin: auto;
+
+        height: 80vh;
+      }
+      .rightsection img {
+        width: 90%;
+        margin: 50px 0;
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(230, 250, 230);
+        color: Red;
+        height: 1px;
+        margin: 45px 84px;
+      }
+      .SecondSection h1 {
+        font: size 1.9rem;
+      }
+      .textgray {
+        color: gray;
+      }
+      .SecondSection .box {
+        background: rgb(237, 243, 239);
+        height: 250px;
+        width: 360px;
+        margin: 50px 0;
+        display: flex;
+      }
+      .gallery{
+        flex-basis: 50%;
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 120px;
+    }
+    .box{
+      background-size: cover;
+      background-position: top;
+      
+      color: rgb(230, 241, 234);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #222;
+      background-blend-mode: hard-light;
+      transition:all 2s ease-in-out;
+      cursor: pointer;
+  }
+  .box:hover{
+      background-color: rgb(25, 138, 74);
+      background-position: center;
+      box-shadow: 0 0 4px #79a990;
+  }
+  
+  
+     
+      footer {
+        background-color: rgb(24, 17, 62);
+        height: 24px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 125px;
+        justify-content: space-between;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: rgb(166, 166, 166);
+      }
+     
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Abhishek's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="http://127.0.0.1:5500/signup.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/project4.html">About</a></li>
+            <li><a href="http://127.0.0.1:5500/nature.html">Services</a></li>
+            <li><a href="http://127.0.0.1:5500/clock.html">Projects</a></li>
+            <li><a href="http://127.0.0.1:5500/project2.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My Name is <span class="purple">Abhishek Pal</span>
+
+          <div>and I am passionate</div>
+
+          <span id="element"></span>
+
+          <div class="button">
+          
+            <a class="btn" href="http://127.0.0.1:5500/project2.html">Download Resume</a>
+            <a class="btn" href="https://github.com/Abhishek2005pal/Abhishek2005pal">Visit Github</a>
+            <a class="btn" href="https://www.linkedin.com/in/abhishek-pal-79215b266/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BVP7uanBlQnSVUT7yZFzbSg%3D%3D">Visit Linked in</a>
+          </div>
+        </div>
+        <div class="rightsection">
+
+          <img id="image" src="SAVE_20230405_083724.jpg" alt style="border-radius:350px">
+        </div>
+      </section>
+      <hr />
+        <section class="SecondSection">
+        <span class="textgray">What I ave done so far</span>
+        <h1>Project</h1>
+
+        <div class="gallery">
+          <div class="box" id="box1"style="background-image: url(https://png.pngtree.com/png-clipart/20220508/original/pngtree-landing-page-template-for-weather-forecast-banner-png-image_7665221.png"><a href="http://127.0.0.1:5500/css/weather.html"></a>??Weather app</div>
+          <div class="box " id="box-1"style="background-image: url(https://plus.unsplash.com/premium_photo-1666792562882-8bd04befec7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60)">Hills</div>
+          <div class="box" id ="box-2"style="background-image: url(https://images.unsplash.com/photo-1446329813274-7c9036bd9a1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60)">Trees</div>
+      </section>
+
+      
+    </main> 
+    <footer> 
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Abhishek's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>MDN</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Careers </li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Support</li>
+            <li>Product help</li>
+            <li>Report an issue</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Our communities</li>
+            <li>MDN communities</li>
+            <li>MDN Forum</li>
+            <li>MDN chat</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        Copyright &#169;abhishekportfolio.com |All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Fronted Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Web developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
